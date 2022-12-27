@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using Lab2;
+﻿using Lab2;
 
 Console.WriteLine("Загружаем данные из файла...");
 
