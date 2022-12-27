@@ -1,4 +1,4 @@
-using Lab3;
+namespace Lab3;
 
 public class Student : Person
 {
