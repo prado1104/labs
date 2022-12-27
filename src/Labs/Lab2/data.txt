@@ -1,0 +1,4 @@
+nokia;3G;100;80
+iPhone;5G;800;100
+samsung;4G;500;20
+blackberry;2G;150;57
