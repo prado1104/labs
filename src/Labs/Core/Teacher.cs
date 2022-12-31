@@ -17,7 +17,7 @@ public class Teacher : Person, IComparable
     public int CompareTo(object? obj)
     {
         if (obj is Teacher other)
-            return Salary.CompareTo(other.Salary);
+            return Salary.CompareTo(other.Age);
 
         throw new ArgumentException("Object is not a Teacher");
     }

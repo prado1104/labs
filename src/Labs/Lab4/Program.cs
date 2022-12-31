@@ -1,29 +1,43 @@
 ﻿using Core;
+using Lab4;
 
 var students = new[]
 {
-    new Student("Петр Петров", 21, "Информационные системы"),
-    new Student("Иван Иванов", 20, "Информационные системы"),
+    new Student("Петр Петров", 18, "Информационные системы"),
+    new Student("Иван Иванов", 21, "Информационные системы"),
 };
 
 Array.Sort(students);
-WriteToConsole("Students:", students);
+WriteToConsole("Students (sorted by name):", students);
+
+Array.Sort(students, new StudentsByAgeComparer());
+WriteToConsole("Students (sorted by age):", students);
+
 
 var teachers = new[]
 {
-    new Teacher("Дмитрий Эникеев",  31, 100),
-    new Teacher("Сергей Протасов",30, 130),
+    new Teacher("Дмитрий Эникеев",  31, 140),
+    new Teacher("Сергей Протасов",30, 160),
 };
+
 Array.Sort(teachers);
-WriteToConsole("Teachers:", teachers);
+WriteToConsole("Teachers (sorted by age):", teachers);
+
+Array.Sort(teachers, new TeachersBySalaryComparer());
+WriteToConsole("Teachers (sorted by salary):", teachers);
+
 
 var departmentHeads = new[]
 {
     new DepartmentHead("Александр Кузнецов", 40,  "Менеджмент"),
     new DepartmentHead("Алексей Кузнецов",41,  "Информационные системы")
 };
+
 Array.Sort(departmentHeads);
-WriteToConsole("Department heads:", departmentHeads);
+WriteToConsole("Department heads (sorted by department):", departmentHeads);
+
+Array.Sort(departmentHeads, new DepartmentHeadsByNameComparer());
+WriteToConsole("Department heads (sorted by name):", departmentHeads);
 
 Console.ReadKey();
 
