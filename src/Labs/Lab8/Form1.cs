@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -14,7 +10,7 @@ namespace Lab8
 {
     public partial class Form1 : Form
     {
-        private const string FileName = "data\\photos.xml";
+        private const string FileName = "Data\\photos.xml";
         private XmlTextReader _reader;
         private DataSet _dataSet;
         private DataTable _table;
@@ -47,16 +43,6 @@ namespace Lab8
             fs.Close();
         }
 
-        // private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        // {
-        //     DisplayDetails(e.RowIndex);
-        // }
-        //
-        // private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        // {
-        //     DisplayDetails(e.RowIndex);
-        // }
-        
         private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             DisplayDetails(e.RowIndex);
