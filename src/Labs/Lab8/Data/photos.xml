@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Photos>
+    <Photo>
+        <Id>1</Id>
+        <Name>Photo 1</Name>
+        <Date>2012-01-01</Date>
+        <Image>photo1.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>2</Id>
+        <Name>Photo 2</Name>
+        <Date>2012-01-02</Date>
+        <Image>photo2.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>3</Id>
+        <Name>Photo 3</Name>
+        <Date>2012-01-03</Date>
+        <Image>photo3.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>4</Id>
+        <Name>Photo 4</Name>
+        <Date>2012-01-04</Date>
+        <Image>photo4.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>5</Id>
+        <Name>Photo 5</Name>
+        <Date>2012-01-05</Date>
+        <Image>photo5.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>6</Id>
+        <Name>Photo 6</Name>
+        <Date>2012-01-06</Date>
+        <Image>photo6.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>7</Id>
+        <Name>Photo 7</Name>
+        <Date>2012-01-07</Date>
+        <Image>photo7.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>8</Id>
+        <Name>Photo 8</Name>
+        <Date>2012-01-08</Date>
+        <Image>photo8.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>9</Id>
+        <Name>Photo 9</Name>
+        <Date>2012-01-09</Date>
+        <Image>photo9.jpg</Image>
+    </Photo>
+    <Photo>
+        <Id>10</Id>
+        <Name>Photo 10</Name>
+        <Date>2012-01-10</Date>
+        <Image>photo10.jpg</Image>
+    </Photo>
+</Photos>
